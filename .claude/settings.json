@@ -2,7 +2,10 @@
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
     "andrej-karpathy-skills@karpathy-skills": true,
-    "i-have-adhd@i-have-adhd": true
+    "i-have-adhd@i-have-adhd": true,
+    "supabase@claude-plugins-official": true,
+    "vercel-plugin@vercel": true,
+    "oh-my-claudecode@omc": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -21,6 +24,18 @@
       "source": {
         "source": "github",
         "repo": "ayghri/i-have-adhd"
+      }
+    },
+    "vercel": {
+      "source": {
+        "source": "github",
+        "repo": "vercel/vercel-plugin"
+      }
+    },
+    "omc": {
+      "source": {
+        "source": "github",
+        "repo": "Yeachan-Heo/oh-my-claudecode"
       }
     }
   }
